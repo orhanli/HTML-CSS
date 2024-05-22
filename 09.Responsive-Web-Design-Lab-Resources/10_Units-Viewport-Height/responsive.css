@@ -1,0 +1,10 @@
+@media screen and (max-witdh: 800xp) {
+   body {
+    width: 80vw;
+   }
+   
+    img {
+        width: 80vw;
+        height: 70vw;
+    }
+}

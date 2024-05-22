@@ -1,0 +1,5 @@
+@media screen and (max-witdh: 800xp) {
+    img {
+        width: 95vw;
+    }
+}

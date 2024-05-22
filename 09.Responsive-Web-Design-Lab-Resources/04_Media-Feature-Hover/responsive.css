@@ -1,0 +1,7 @@
+@media screen and (hover: hover) {
+    article code:hover {
+        color: white;
+        background-color: black;
+    }
+    
+}
