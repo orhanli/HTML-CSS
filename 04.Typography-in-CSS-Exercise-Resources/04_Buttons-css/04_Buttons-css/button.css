@@ -1,0 +1,33 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css);
+
+/* You need a padding */
+
+.icon button , .normal button , .filled button {
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.normal button {
+    background-color: rgb(251, 251, 251);
+    color: rgb(51, 51, 51);
+    outline: none;
+}
+
+.filled button {
+    background-color: gray;
+    color: white;
+}
+
+.icon button {
+    background-color: gray;
+    color: white;
+}
+
+.icon button:last-child:hover, .filled button:last-child:hover, .normal button:last-child:hover {
+    background-color: green;
+}
+
+
+
+
+

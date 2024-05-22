@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+12+Charted&family=Jersey+25&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    padding: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+th {
+    background-color: lightblue;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+th, td {
+    width: 144px;
+    height: 32px;
+    border: 1px solid #ccc;
+    padding-left: 5px;  
+}

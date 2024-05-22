@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button CSS</title>
+    <link rel="stylesheet" href="button.css">
+</head>
+<body>
+    <div class="normal button">
+        <h2>Normal Buttons</h2>
+        <!-- Every button should have a class="button" -->
+        <!-- You need for the first button in each row "a"-tag NOT "button"-tag -->
+        <!-- class="fill" for the buttons in the second and third row -->
+        <!-- class="hover for the last button" -->
+
+        <!-- How to add more classes to an element -->
+        <!-- class="button fill hover" => this element have three classes:
+            1.button
+            2.fill
+            3.hover
+        you separete your classes with space -->
+
+        <!-- You don't have to use alert (from JaveScript - we have not learnt about it!) -->
+        <button type="button" onclick="alert('something')">Learn More</button>
+        <button type="button" onclick="alert('something')">Learn More</button>
+        <button type="button" onclick="alert('something')">Learn More</button>
+
+    </div>
+    <div class="filled button">
+        <h2>Filled Buttons</h2>
+        <button type="button">Learn More</button>
+        <button type="button">Learn More</button>
+        <button type="button">Learn More</button>
+    </div>
+    <div class="icon button">
+        <h2>Icon Buttons</h2>
+        <button class="icon button"><i class="fa-solid fa-download"></i> Download</button>
+        <button class="icon button"><i class="fa-solid fa-download"></i> Download</button>
+        <button class="icon button"><i class="fa-solid fa-download"></i> Download</button>
+    </div>
+</body>
+</html>
