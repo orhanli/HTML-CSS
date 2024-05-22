@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+span{
+    display: block;
+    border: 1px solid black;
+    padding: 2em;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+}
+
+.week{
+    display: flex;
+    flex-direction: column;
+}
+
+.notes{
+    display: flex;
+    flex-direction: column;
+}
+
+.workweek{
+    display: flex;
+    flex-direction: column;
+}
+
+.weekend{
+    display: flex;
+    flex-direction: column;
+}
+
+.workweek-container{
+    display: flex;
+}
+
+.weekend-container{
+    display: flex;
+}
+
+.notes > *{
+    flex-grow: 1;
+}
+
+.weekend-container > * {
+    flex-grow: 1;
+}
+
